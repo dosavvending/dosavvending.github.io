@@ -428,3 +428,13 @@ footer {
   .steps, .adv-grid { grid-template-columns: 1fr; }
   .stat-row { grid-template-columns: 1fr 1fr; }
 }
+
+/* Machine showcase */
+.machine-sec { padding: 3rem 0; background: var(--navy-mid); }
+.machine-showcase { display: flex; flex-direction: column; align-items: center; gap: 1rem; }
+.machine-img { max-width: 420px; width: 100%; border-radius: 12px; border: 1px solid rgba(143,214,47,.2); box-shadow: 0 8px 40px rgba(0,0,0,.4); }
+.machine-cap { font-size: .85rem; color: var(--gray); letter-spacing: .06em; }
+
+/* ID check image */
+.feat-idcheck { margin-top: 1rem; }
+.idcheck-img { width: 100%; max-width: 340px; border-radius: 10px; border: 1px solid rgba(143,214,47,.2); box-shadow: 0 4px 24px rgba(0,0,0,.35); }
